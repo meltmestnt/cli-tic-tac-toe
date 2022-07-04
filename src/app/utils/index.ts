@@ -1,0 +1,1 @@
+export const isNumber = (val: string | number) => !isNaN(+val) && !isNaN(parseFloat(val.toString()));
